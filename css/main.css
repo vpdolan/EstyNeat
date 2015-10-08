@@ -41,8 +41,9 @@ header {
   list-style: none;
   display: inline;
   padding-right: 10px; }
-  #Sell #Signin, #Register #Signin, #cart #Signin {
-    color: blue; }
+
+#Signin {
+  color: blue; }
 
 #navtwo {
   width: 100%;
@@ -97,3 +98,37 @@ header {
 
 .Price a {
   padding-left: 2px; }
+
+.Filtercolors {
+  list-style: none; }
+
+#red, #orange, #yellow, #green, #blue, #purple, #black, #white {
+  height: 5px;
+  width: 5px;
+  border: 1px #787878;
+  margin: 1px;
+  display: inline-block; }
+
+#red {
+  color: #FF1919; }
+
+#orange {
+  color: #FFAE19; }
+
+#yellow {
+  color: #FFFF4D; }
+
+#green {
+  color: #00E600; }
+
+#blue {
+  color: #3030FF; }
+
+#purple {
+  color: #A64DA6; }
+
+#black {
+  color: #191919; }
+
+#white {
+  color: #FFFFFF; }

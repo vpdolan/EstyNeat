@@ -59,14 +59,12 @@ header {
     display: inline;
     padding-right: 10px;
 
+    }
+
     #Signin {
       color: blue;
 
     }
-
-
- }   
-
 
  #navtwo {
   width: 100%;
@@ -74,9 +72,7 @@ header {
   color: #474747;
   padding-bottom: 0;
 
-  
-
-}
+    }
 
    
   #navtwo li {
@@ -86,7 +82,7 @@ header {
     display: inline;
 
 
-  }
+   }
     
 
   .container {
@@ -107,13 +103,13 @@ header {
     float: left;
     width: 22%
 
-  }
+    }
 
   .sidebartop {
     background-color: white;
     border: 1px #787878;
     
-  }
+    }
 
     .sidebartop h3 {
       color: #363636;
@@ -138,16 +134,15 @@ header {
 
     }  
     
-
       .radiochoices h3 {
         color: #363636;
         padding-left: 37px;  
 
-      }
+    }
 
       .radiochoices li {
         list-style: none;             
-      }
+     }
 
       .Price {
         background-color: white
@@ -161,29 +156,59 @@ header {
 
 
       .Filtercolors {
+        list-style: none;
       
-
-      #red {
-        height: 5px;
-        width: 5px;
-        border: 1px #787878;
-      }
-
       
-
       }
 
+        #red, #orange, #yellow, #green, #blue, #purple, #black, #white, {
+
+          height: 5px;
+          width: 5px;
+          border: 1px #787878;
+          margin: 1px;
+          display: inline-block;
+
+         }
+
+          #red {
+            color: #FF1919;
+         }
+
+          #orange {
+            color: #FFAE19;
+         }
 
 
-
-        , #orange, #yellow, #green, #blue, #purple, #black, #white {
-
-        height: 5px;
-        width: 5px;
-        border: 1px #787878;
+          #yellow {
+             color: #FFFF4D;
+          }
 
 
-      }
+          #green {
+            color: #00E600;   
+
+          }  
+
+          #blue {
+            color: #3030FF;
+
+          }
+
+          #purple {
+            color: #A64DA6;
+
+          }
+
+          #black {
+            color: #191919;
+
+          }
+
+          #white {
+            color: #FFFFFF;
+
+          }
       
     
 
