@@ -133,20 +133,24 @@ header {
     
 
   .container {
-    width: 100%;
-    
+    width: 100%;     
+
   } 
+
+
 
   .forsaleimages {
 
-    width: 65%;
+    width: 70%;
+    height: auto;
     float: right;
     display: inline-block;
+    border: 3px solid black;
 
   }
 
   .foresaleimages h2 {
-    font-size: 1em;
+    font-size: .75em;
   }
 
   .foresaleimages ul {
@@ -159,6 +163,12 @@ header {
     //display: block;
     //border: 2px solid black;
     }
+
+    .show {
+
+    border: 10px solid green;
+  }
+
 
   #sidebartop {
     background-color: white;

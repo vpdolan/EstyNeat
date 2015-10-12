@@ -1,22 +1,29 @@
 //IIFE
 
+// // (function () {
+
+
+//     etsy.results.forEach( function (item) {
+//         console.log(item);
+//     });
+
+
+
+
+
+// }());
 (function () {
 
+  var templateString = $("#itemTemplate").text();
 
-var test = etsy;
+  var renderTemplate = _.template(templateString);
 
+  _.each(etsy.results, function(item) {
 
-  console.dir(test);
+     console.log(item);
 
-  <div class="Container" </div>
-   <script type="text/template" id=itemTemplate">
-   <div>
-    <p> <%= title %></p>
-    <p> class="price"> <%= price %> </p> 
-      <img src="<%= Images [0].url_170x135%>"> 
-
-    </div>
-      <hr>
-       </script>
+     var freshHTML = renderTemplate(item);
+     $('.forsaleimages').append(freshHTML);
+  });
 
 }());
