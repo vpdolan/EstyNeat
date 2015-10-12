@@ -37,6 +37,7 @@ header {
   #navone li {
     list-style: none;
     display: inline;
+    border-bottom: 1px #898989;
 }
 
     #Etsy {
@@ -99,7 +100,7 @@ header {
         display: block;
         vertical-align: baseline;
         padding-top: 15px;
-        padding-left: 15px;   
+        padding-left: 25px;   
 
     }
 
@@ -108,20 +109,26 @@ header {
   height: 60px;
   //color: #474747;
   padding-bottom: 0;
+  border-top: 1px #898989;
 
     }
 
-   
   #navtwo li {
+    display: inline;
+
+  }  
+
+   
+  #navtwo a {
     color: #989898;
     padding-right: 20px;
     list-style: none;
-    display: inline;
 
    }
 
-   #navtwo a {
-    color: #989898;
+   #navtwo a:hover {
+    color: #262626;
+    text-decoration: underline;
    }
     
 
@@ -136,6 +143,10 @@ header {
     float: right;
     display: inline-block;
 
+  }
+
+  .foresaleimages h2 {
+    font-size: 1em;
   }
 
   .foresaleimages ul {
@@ -158,16 +169,26 @@ header {
     
     }
 
-    .sidebartop h3 {
+    #sidebartop  h3  {
       color: #363636;
+    
     }
 
     #sidebartop li, a {
-      color: blue;
       text-indent: 5px;
       list-style: none;
+      color: blue;
 
     } 
+
+    #sidebartop a:hover {
+      color: blue;
+      text-decoration: underline;  
+    }
+
+    #sidebartop a:active {
+      color: #262626;
+    }
 
       .Refine {
       background-color: #A6A6A6;
@@ -200,7 +221,16 @@ header {
       .radiochoices li {
         list-style: none;
         padding-left: 4px;
-        color: blue;             
+        color: blue;
+      }  
+
+      .radiochoices input, a:hover {
+         color: #898989;
+         font-weight: bold;
+
+      .radiochoices hr {
+        padding-left: 40px;
+      }       
      }
 
       .Price {
@@ -209,8 +239,9 @@ header {
 
       }
 
-      .Price a {
+      .Price input, a {
         padding-left: 2px;
+        border-width: 2px 2px 1px 2px;
       }
 
 
@@ -247,7 +278,7 @@ header {
           #yellowbox button {
              background-color: #FFFF4D;
              height: 15px;
-            width: 6px;
+             width: 6px;
             //border: 1px #787878;
             //margin: 1px;
           }
@@ -298,10 +329,37 @@ header {
 
           }
 
-          .Orderingoptions ul {
+          .Orderoptions ul {
             color: blue;
 
           }
+
+          .Location li {
+            color: blue;
+          }
+
+          .location input, a:hover {
+            color: #898989;
+            font-weight: bold;
+          }
+
+          .customlocation a:link {
+            color: blue;
+            //text-decoration: none;
+            text-indent: 10px;
+           } 
+
+          .customlocation a:hover {
+            text-decoration: underline;  } 
+
+          .shipto select {
+            color: #363636;
+            border-width: 2px 2px 4px 2px;
+          }   
+
+          
+
+          
       
     
 

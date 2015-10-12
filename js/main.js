@@ -8,7 +8,7 @@ var test = etsy;
 
   console.dir(test);
 
-  <div class="Container" <</div>
+  <div class="Container" </div>
    <script type="text/template" id=itemTemplate">
    <div>
     <p> <%= title %></p>

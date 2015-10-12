@@ -48,6 +48,7 @@
      </div>
 
     <div class="forsaleimages">
+      <h2>Top categories for "whiskey"</h2>
       
     </div>
 
@@ -84,15 +85,19 @@
     <div class="radiochoices">
       <h3>Item Type</h3>
       <ul>
-        <li><input type="radio" name="itemtype" value="All Items" checked="checked">  All Items</input><li>
-        <li><input type="radio" name="itemtype" value="Handmade" checked="checked">  Handmade</input></li>
-        <li><input type="radio" name="itemtype" value="Vintage" checked="checked"> Vintage</input></li>
+        <li><a><input type="radio" name="itemtype" value="All Items" checked="checked">  All Items</input></a></li>
+        <li><a><input type="radio" name="itemtype" value="Handmade" checked="checked">  Handmade</input></a></li>
+        <li><a><input type="radio" name="itemtype" value="Vintage" checked="checked"> Vintage</input></a></li>
+        <hr></hr>
       </ul>
+
     </div>
+    
 
     <div class="Price">
       <h3>Price</h3>
         <p><input type="text" placeholder="$ Low   " name="price" size="7"></input> to <input type="text" placeholder="$ High   " name="price" size="7"></input><input type="submit" value="&#9830"><a href="#"< name="price" size="4"></a></input></p>
+        <hr></hr>
     </div>
 
     <div class="Filtercolors">
@@ -105,14 +110,36 @@
         <div id="purplebox"><button><a href="#"></a></button></div>
         <div id="blackbox"><button><a href="#"></a></button></div>
         <div id="whitebox"><button><a href="#"></a></button></div>
+        <hr></hr>
     </div>
 
-      <div class="Ordering Options">
+      <div class="Orderoptions">
         <h3>Ordering Options</h3>
           <ul>    
-            <li><input type="checkbox" name="Ordering Options" value="Accepts Etsy Gift Cards" checked="checked"> Accepts Etsy Gift Cards</input></li>
-            <li><input type="checkbox" name="Ordering Options" value="Customizable"> Customizable</input></li>
+            <li><input type="checkbox" name="Orderoptions" value="Accepts Etsy Gift Cards" checked="checked"> Accepts Etsy Gift Cards</input></li>
+            <li><input type="checkbox" name="Orderoptions" value="Customizable"> Customizable</input></li>
+            <hr></hr>
            </ul> 
+       </div>
+       
+     <div class="Location"> 
+      <h3>Shop Location</h3>
+        <ul>
+          <li><a><input type="radio" name="location" value="Anywhere" checked="checked">  Anywhere</input></a></li>
+          <li><a><input type="radio" name="location" value="United States" checked="checked">  United States</input></a></li>
+          </ul>
+    </div>
+        <div class="customlocation"><a href="#">Choose a custom location</a><hr></hr></div> 
+
+      <div class="Shipto">
+        <p>Ship To</p>
+          <Select name="shipto">
+            <option value="United States">United States</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="Canada">Canada</option>
+            <option name="Mexico">Mexico</option>   
+      
+     </div>   
             
 
         
@@ -123,25 +150,28 @@
 
 
    <footer>
-      <div>
+      <div class="RelatedtoWhiskey">
+      
         <ul></ul>
       </div>      
    </footer>
 
-  !---- JS ----!
+
+
+
+
 
    <div class="Container" <</div>
    <script type="text/template" id=itemTemplate">
    <div>
-    <p> <%= title %></p>
+    <p><%= title %></p>
     <p> class="price"> <%= price %> </p> 
       <img src="<%= Images [0].url_170x135%>"> 
 
     </div>
       <hr>
        </script>
-
-!---- JS ----!               
+               
     
 
 
