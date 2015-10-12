@@ -8,72 +8,77 @@
 </head>
 
 <header>
-<div id="navtop">
+  <div class="navtop">
       <div id="navone">
         <ul>
           <li id="Etsy">Etsy</li>
           <li id="whiskey"><input type="text" placeholder="whiskey" name="item" size="30" maxlength="85"></input></li>
-          <li id="Search"><input type="text" placeholder="Search" name="Search" size="10px"></input></li>  
+          <li id="Search"><a href="#"><input type="submit" value="Search" size="20px"></input></a></li>  
 
-          <li id="Sell">Sell on Etsy</li>
-          <li id="Register">Register</li>
-          <li id="Signin"><input type="text" placeholder="Sign In" size="15"></input></li>
-          <li id="button"<Button></li>
-          <li id="cart icon">cart icon</li>   
+          <li id="Sell"><a href="#">Sell on Etsy</a></li>
+          <li id="Register"><a href="#">Register</a></li>
+          <li id="Signin"><a href="#"><input type="submit" value="Sign In" size="30"></input></a></li>        
+          <li id="cart icon"><a href="#"><img src="images/EstyNeat Images/cart.png"></a>Cart</li>   
         </ul>
       </div>
+
           
 
       <div id="navtwo">
         <ul>
-          <li>Clothing &#38 Accessories</li>
-          <li>Jewelry</li>
-          <li>Craft Supplies &#38 Tools</li>
-          <li>Weddings</li>
-          <li>Entertainment</li>
-          <li>Home &#38 Living</li>
-          <li>Kids &#38 Baby
-          <li>Vintage</li>
+          <li id="Clothing"><a href="#">Clothing &#38 Accessories</a></li>
+          <li id="Jewelry"><a href="#">Jewelry</a></li>
+          <li id="Craft"><a href="#">Craft Supplies &#38 Tools</a></li>
+          <li id="Weddings"><a href="#">Weddings</a></li>
+          <li id="Entertainment"><a href="#">Entertainment</a></li>
+          <li id="Home"><a href="#">Home &#38 Living</a></li>
+          <li id="Kids"><a href="#">Kids &#38 Baby</a></li>
+          <li id="Vintage"><a href="#">Vintage</a></li>
         </ul>
       </div> 
-     </div>    
+   </div>    
  </header> 
 
  <body>
 
 
   <div class="container">
+    <div class="Show">
+          <p>Show results for:</p>
+     </div>
 
     <div class="forsaleimages">
-      <ul>whiskey pics
-        <li></li>
-      </ul>
-    </div>    
+      
+    </div>
+
 
  <div class="sidebars"> 
-    <div class="sidebartop">
+    <div id="sidebartop">
       <h3>All Categories</h3>
       <ul>
-        <li>Home &#38 Living</li>
-        <li>Art &#38 Collectibles</li>
-        <li>Weddings</li>
-        <li>Clothing</li>
-        <li>Jewelry</li>
-        <li>Paper &#38 Party Supplies</li>
-        <li>Accessories</li>
-        <li>Craft Supplies &#38 Tools</li>
-        <li>Bags &#38 Purses</li>
-        <li>Bath &#38 Beauty</li>
-        <li>Shoes</li>
-        <li>Books, Movies &#38 Music</li>
-        <li>Electronics &#38 Accessories</li>
-        <li>Toys &#38 Electronics</li>
-        <li>Pet Supplies</li>
+        <li id="Home2"><a href="#">Home &#38 Living</a></li>
+        <li id="Art"><a href="#">Art &#38 Collectibles</a></li>
+        <li id="Weddings2"><a href="#">Weddings</a></li>
+        <li id="Clothing"><a href="#">Clothing</a></li>
+        <li id="Jewelry2"><a href="#">Jewelry</a></li>
+        <li id="Paper"><a href="#">Paper &#38 Party Supplies</a></li>
+        <li id="Accessories"><a href="#">Accessories</a></li>
+        <li id="Craft2"><a href="#">Craft Supplies &#38 Tools</a></li>
+        <li id="Bags"><a href="#">Bags &#38 Purses</a></li>
+        <li id="Bath"><a href="#">Bath &#38 Beauty</a></li>
+        <li id="Shoes"><a href="#">Shoes</a></li>
+        <li id="Books"><a href="#">Books, Movies &#38 Music</a></li>
+        <li id="Electronics"><a href="#">Electronics &#38 Accessories</a></li>
+        <li id="Toys"><a href="#">Toys &#38 Electronics</a></li>
+        <li id="Pet Supplies"><a href="#">Pet Supplies</a></li>
 
       </ul>
-    </div> 
+    </div>
 
-    <p>Refine your Search</p>   
+    <div class="Refine"> 
+
+      <p>Refine your Search</p>
+     </div>    
 
    <div class="sidebarbottom">
     <div class="radiochoices">
@@ -81,33 +86,39 @@
       <ul>
         <li><input type="radio" name="itemtype" value="All Items" checked="checked">  All Items</input><li>
         <li><input type="radio" name="itemtype" value="Handmade" checked="checked">  Handmade</input></li>
-        <li><input type="radio" name="itemtype"value="Vintage" checked="checked">  Vintage</input></li>
+        <li><input type="radio" name="itemtype" value="Vintage" checked="checked"> Vintage</input></li>
       </ul>
     </div>
 
     <div class="Price">
       <h3>Price</h3>
-        <p><input type="text" placeholder="$ Low   " name="price" size="7"></input> to <input type="text" placeholder="$ High   " name="price" size="7"></input><a><input type="text" placeholder="   &#9830" name="price" size="4"></a></input></p>
+        <p><input type="text" placeholder="$ Low   " name="price" size="7"></input> to <input type="text" placeholder="$ High   " name="price" size="7"></input><input type="submit" value="&#9830"><a href="#"< name="price" size="4"></a></input></p>
     </div>
 
     <div class="Filtercolors">
-      <div id="red"></div>
-      <div id="orange"></div>
-      <div id="yellow"></div>
-      <div id="green"></div>
-      <div id="blue"></div>
-      <div id="purple"></div>
-      <div id="black"></div>
-      <div id="white"></div>
-    </div>     
+      <h3>Filter by Color</h3>
+        <div id="redbox"><button><a href="#"></a></button></div>
+        <div id="orangebox"><button><a href="#"></a></button></div>
+        <div id="yellowbox"><button><a href="#"></a></button></div>
+        <div id="greenbox"><button><a href="#"></a></button></div>
+        <div id="bluebox"><button><a href="#"></a></button></div>
+        <div id="purplebox"><button><a href="#"></a></button></div>
+        <div id="blackbox"><button><a href="#"></a></button></div>
+        <div id="whitebox"><button><a href="#"></a></button></div>
+    </div>
 
+      <div class="Ordering Options">
+        <h3>Ordering Options</h3>
+          <ul>    
+            <li><input type="checkbox" name="Ordering Options" value="Accepts Etsy Gift Cards" checked="checked"> Accepts Etsy Gift Cards</input></li>
+            <li><input type="checkbox" name="Ordering Options" value="Customizable"> Customizable</input></li>
+           </ul> 
+            
 
-
-          
-
-
-
+        
+  </div>  
   </div>
+
    
 
 
@@ -115,7 +126,22 @@
       <div>
         <ul></ul>
       </div>      
-   </footer>        
+   </footer>
+
+  !---- JS ----!
+
+   <div class="Container" <</div>
+   <script type="text/template" id=itemTemplate">
+   <div>
+    <p> <%= title %></p>
+    <p> class="price"> <%= price %> </p> 
+      <img src="<%= Images [0].url_170x135%>"> 
+
+    </div>
+      <hr>
+       </script>
+
+!---- JS ----!               
     
 
 
