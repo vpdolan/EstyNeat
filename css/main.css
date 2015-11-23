@@ -91,14 +91,19 @@ header {
   width: 70%;
   height: auto;
   float: right;
-  display: inline-block;
   border: 3px solid black; }
 
 .foresaleimages h2 {
-  font-size: .75em; }
+  font-size: .75em;
+  text-align: center; }
 
 .foresaleimages ul {
-  list-style: none; }
+  list-style: none;
+  font-size: 6px;
+  height: 50px;
+  width: 50px;
+  display: inline block;
+  wrap: auto; }
 
 .sidebars {
   float: left;

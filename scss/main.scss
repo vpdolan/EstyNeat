@@ -132,7 +132,7 @@ header {
    }
     
 
-  .container {
+  .container1 {
     width: 100%;     
 
   } 
@@ -144,17 +144,23 @@ header {
     width: 70%;
     height: auto;
     float: right;
-    display: inline-block;
+    //display: inline-block;
     border: 3px solid black;
 
   }
 
   .foresaleimages h2 {
     font-size: .75em;
+    text-align: center;
   }
 
   .foresaleimages ul {
     list-style: none;
+    font-size: 6px;
+    height: 50px;
+    width: 50px;
+    display: inline block;
+    wrap: auto;
   }
   
   .sidebars {
